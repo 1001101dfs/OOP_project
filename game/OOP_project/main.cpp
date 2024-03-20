@@ -41,6 +41,7 @@ int main() {
 	Logic logic(Persone, PersoneID, HEIGTH, WIDTH);
 	system("cls");
 	while (true) {
+		logic.CheckClick();
 		logic.Draw();
 		Sleep(500);
 	}

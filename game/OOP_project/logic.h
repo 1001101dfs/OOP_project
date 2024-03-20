@@ -6,7 +6,7 @@
 
 class Logic {
 protected:
-	ClickEventHandler* ClickEvent; 
+	ClickEventHandler* Click; 
 	std::vector<Character*> Persone;
 	int PersoneID;
 	std::vector<std::vector<int>> map;

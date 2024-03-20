@@ -2,7 +2,6 @@
 #include <vector>
 #include <windows.h>
 #include <conio.h>
-#include "Logic.h"
 class ClickEventHandler {
 private:
 	std::pair<int, int>* Position;

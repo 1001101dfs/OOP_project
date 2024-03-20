@@ -4,8 +4,7 @@ Logic::Logic(std::vector<Character*> Persone, int PersoneID, int HEIGTH, int WID
 	this->PersoneID = PersoneID;
 	this->HEIGTH = HEIGTH;
 	this->WIDTH = WIDTH;
-	//ClickEvent.push_back(new ClickEventHandler(Persone[PersoneID]->TakePosition(), HEIGTH, WIDTH));
-	ClickEvent = new ClickEventHandler(Persone[PersoneID]->TakePosition(), HEIGTH, WIDTH);
+	Click = new ClickEventHandler(Persone[PersoneID]->TakePosition(), HEIGTH, WIDTH);
 	map.resize(HEIGTH, std::vector<int>(WIDTH, -1));
 	for (int i = 1; i < HEIGTH - 1; i++) {
 		for (int j = 1; j < WIDTH - 1; j++) {
@@ -28,5 +27,5 @@ void Logic::Draw() {
 	}
 }
 void Logic::CheckClick() {
-	ClickEvent->ClickEvent();
+	Click->ClickEvent();
 }

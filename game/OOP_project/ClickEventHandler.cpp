@@ -16,7 +16,7 @@ void ClickEventHandler::ClickEvent() {
         case 's': //влево 
             if (Position->first + 1 < HEIGTH)Position->first++;
             break;
-        case 77: //вправо
+        case 'd': //вправо
             if (Position->second + 1 < WIDTH)Position->second++;
             break;
         }
