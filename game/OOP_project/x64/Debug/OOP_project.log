@@ -1,0 +1,12 @@
+﻿  ClickEventHandler.cpp
+C:\Users\10011\source\repos\OOP_project\OOP_project\Logic.h(9,19): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+  (компиляция исходного файла "ClickEventHandler.cpp")
+  
+C:\Users\10011\source\repos\OOP_project\OOP_project\Logic.h(9,19): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "ClickEventHandler.cpp")
+  
+C:\Users\10011\source\repos\OOP_project\OOP_project\Logic.h(9,31): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "ClickEventHandler.cpp")
+  
+  main.cpp
+  Создание кода...
